@@ -12,7 +12,7 @@ Hooks documentation: https://scalar.usc.edu/works/guide2/hooks?path=advanced-top
 # Setup
 
 Install Scalar (see here for instructions: https://github.com/anvc/scalar/blob/master/INSTALL.txt)
-Git clone this repository into a Scalar hooks folder (system/application/hooks/[HOOK FOLDER])
+Git clone this repository into a Scalar hooks folder (system/application/hooks/[HOOK FOLDER]), change the name of the hook from 'Book-Template' to that of the specific book being customized.
 
 Install tensor and transfer plugins (if needed), to do this simply download the code from the repo and copy the contents into the [system][application][plugins] folder.
 
