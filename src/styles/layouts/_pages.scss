@@ -1,0 +1,118 @@
+//Set Specificity to 200
+#article#article {
+  span[property="sioc:content"] {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 6rem;
+    margin: 0 auto;
+    max-width: 900px;
+
+    @media only screen and (max-width: 1040px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .body_copy {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    p.p--feature {
+      max-width: 100%;
+      font-size: 3rem;
+      margin-bottom: 8rem;
+      text-align: center;
+    }
+
+    h2.h2--feature {
+      text-align: center;
+      font-size: 6rem;
+    }
+  }
+
+  .relationships {
+    padding-top: 2.4rem;
+    max-width: 940px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    clear: both;
+
+    h1 {
+      font-size: 2.1rem;
+      line-height: 2.4rem;
+      margin-bottom: 1.2rem;
+      margin-top: 0;
+    }
+
+    #back-btn {
+      display: none;
+    }
+  }
+
+  #incoming_comments {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .primary_role_media .page > [property="sioc:content"] {
+    // max-width: 900px;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+
+  .relationships h1 {
+    font-size: 3rem;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .path_of {
+    list-style: none;
+    margin-bottom: 3rem;
+    padding: 0 0 0 20px;
+  }
+
+  .path_of li {
+    padding: 3px 0;
+    position: relative;
+    font-size: 1.8rem;
+  }
+
+  .path_of li:before {
+    content: "»";
+    position: absolute;
+    left: -18px;
+    top: 2px;
+    color: #232323;
+  }
+
+  .has_tags li {
+    font-size: 1.6rem;
+  }
+
+  .google-info-window h2 {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0 0 1rem;
+    line-height: 100%;
+  }
+
+  .google-info-window img {
+    margin: 0 !important;
+    width: 200px;
+  }
+
+  ol.has_tags {
+    padding-left: 0;
+  }
+
+  #incoming_comments {
+    display: none !important;
+  }
+}

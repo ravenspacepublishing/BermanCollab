@@ -1,0 +1,178 @@
+//Set Specificity to 200
+#article {
+  p {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    padding: 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 1.8rem;
+      margin-bottom: 2.7rem;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    @media only screen and (max-width: 767px) {
+      margin-top: 5.4rem;
+      margin-bottom: 2.7rem;
+    }
+  }
+
+  h1 {
+    font-size: 6.8rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 5.4rem;
+    }
+  }
+
+  h2 {
+    font-size: 4.5rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 3.8rem;
+    }
+  }
+
+  h3 {
+    font-size: 2.8rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 2.2rem;
+    }
+  }
+
+  h4 {
+    font-size: 2rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .p {
+    display: block;
+  }
+  .h2 {
+    @extend h2;
+  }
+  .h3 {
+    @extend h3;
+  }
+  .h4 {
+    @extend h4;
+  }
+  .h5 {
+    @extend h5;
+  }
+  .p {
+    @extend p;
+  }
+
+  ul {
+    margin: 0 0 3rem 0;
+    list-style-position: outside;
+    padding-left: 20px;
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 2.7rem;
+    }
+  }
+  ol {
+    margin: 0 0 3rem 0;
+    list-style-position: outside;
+    padding-left: 20px;
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 2.7rem;
+    }
+  }
+  li {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.5;
+    @media only screen and (max-width: 767px) {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+#article#article {
+  p {
+    padding: 0;
+  }
+
+  .firstcharacter {
+    float: left;
+    font-size: 60px;
+    line-height: 54px;
+    padding-top: 6px;
+    padding-right: 9px;
+    padding-left: 3px;
+  }
+
+  .body_copy blockquote {
+    z-index: 1;
+    position: relative;
+
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 3rem;
+
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+    font-style: italic;
+
+    em {
+      font-style: normal;
+    }
+
+    &.pull-left {
+    }
+
+    &.pull-right {
+      text-align: left;
+      border-right: none;
+      border-left: 5px solid #eee;
+
+      @media only screen and (min-width: 540px) {
+        padding: 1rem 0 1rem 3.6rem;
+        margin-left: 36px;
+        width: 264px;
+      }
+    }
+  }
+
+  .pull {
+    @media only screen and (min-width: 540px) {
+      width: 300px;
+    }
+  }
+
+  .pull-left {
+    @media only screen and (min-width: 540px) {
+      float: left;
+    }
+  }
+
+  .pull-right {
+    @media only screen and (min-width: 540px) {
+      float: right;
+    }
+  }
+}

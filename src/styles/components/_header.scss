@@ -1,0 +1,162 @@
+//Set Specificity to 200
+#body#body {
+
+	#scalarheader {
+		background-color: #39475a;
+		border-color: #333;
+		transform : none;
+		-webkit-transform : none;
+		-moz-transform : none;
+	}
+
+	//Mobile styles
+	#ScalarHeaderMenu {
+		background-color: #39475a;
+	}
+
+	#ScalarHeaderMenuSearchForm {
+		background-color: #39475a;
+	}
+
+	.navbar #ScalarHeaderMenuLeft a.headerIcon:hover, 
+	.navbar #ScalarHeaderMenuLeft a.headerIcon:focus, 
+	.navbar #ScalarHeaderMenuLeft a.headerIcon:active, 
+	.navbar #ScalarHeaderMenuRight a.headerIcon:hover, 
+	.navbar #ScalarHeaderMenuRight a.headerIcon:focus, 
+	.navbar #ScalarHeaderMenuRight a.headerIcon:active, 
+	.navbar #ScalarHeaderMenuLeft li.open a.headerIcon, 
+	.navbar #ScalarHeaderMenuRight li.open a.headerIcon, 
+	#ScalarHeaderMenuSearch.search_open, 
+	#ScalarHeaderMenuSearch.search_open a, {
+		background-color: #1d2631;
+	}
+	//End Mobile styles
+
+	.title_wrapper {
+		font-size:14px;
+		text-transform: none;
+		// letter-spacing:-.25px;
+	}
+
+	ul.dropdown-menu li.static>a, 
+	ul.dropdown-menu>li>a, 
+	ul.dropdown-menu .relationships li>a, 
+	ul.dropdown-menu .body>ol>li>a {
+		font-weight:normal;
+		font-size:14px;
+	}
+
+	.dropdown-menu {
+		background-color: $header-primary--dark;
+		text-transform: none;
+		padding-bottom: 0;
+	}
+	.dropdown-menu ul > li, 
+	.dropdown-menu ol > li, 
+	#scalarheader ul > li, 
+	#scalarheader ol > li {
+		margin-left: 0;
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+
+	a.headerIcon{
+		color: white;
+		-webkit-text-fill-color: white;
+		@media only screen and (min-width: 767px) {
+			height: 5rem;
+			width: 5rem;
+			text-align: center;
+			font-size: 24px;
+			background-position: center center;
+			background-size: 26px;
+			background-repeat: no-repeat;
+		}
+
+		&:hover {
+			background-color: #1d2631;
+		}
+	}
+
+	.mainMenu a.headerIcon{
+		background-image: url(../images/icons/list_bulleted-2.png);
+	}
+	#homeLink{
+		background-image: url(../images/icons/house_1.png);
+	}
+	#searchIcon{
+		background-image: url(../images/icons/zoom.png);
+	}
+	#helpIcon{
+		background-image: url(../images/icons/question.png);
+	}
+	#userIcon{
+		background-image: url(../images/icons/user.png);
+	}
+	#editIcon{
+		background-image: url(../images/icons/pencil.png);
+	}
+	#annotateIcon{
+		background-image: url(../images/icons/clip.png);
+	}
+
+	#wayfindingIcon{
+		background-image: url(../images/icons/compass_south_west.png);
+	}
+	#deleteIcon{
+		background-image: url(../images/icons/garbage.png);
+	}
+	#importIcon{
+		background-image: url(../images/icons/photo_upload.png);
+	}
+	#optionsIcon{
+		background-image: url(../images/icons/settings_2.png);
+	}
+	#newIcon{
+		background-image: url(../images/icons/circle_plus.png);
+	}
+	#editorialPathIcon{
+		background-image: url(../images/editorialpath_icon.png);
+	}
+
+	#navMenu,
+	#ScalarHeaderImport,
+	#userMenu  {
+
+		> .dropdown-menu {
+			// display: block;
+		}
+
+		li {
+			padding: 0;
+			margin: 0;
+			background-color: transparent;
+		}
+
+	}
+
+	.dropdown-menu li a {
+		// background-color: #576988;
+		color: #fff;
+		-webkit-text-fill-color: #fff;
+	}
+
+	.dropdown-menu li.open a {
+		background-color: #475873;
+		color: #fff;
+		-webkit-text-fill-color: #fff;
+	}
+
+	.dropdown-menu li a:hover {
+		background-color: #576988 !important;
+		color: #fff;
+		-webkit-text-fill-color: #fff;
+	}
+
+	#scalar_menu {
+		display: none;
+	}
+
+}
