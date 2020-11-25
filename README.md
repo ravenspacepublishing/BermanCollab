@@ -15,9 +15,13 @@ Install Scalar (see here for instructions: https://github.com/anvc/scalar/blob/m
 Git clone this repository into a Scalar hooks folder (system/application/hooks/[HOOK FOLDER])
 
 Install tensor and transfer plugins (if needed), to do this simply download the code from the repo and copy the contents into the [system][application][plugins] folder.
+
 Tensor -> https://github.com/anvc/tensor
+
 Tensor Profiles (simply place the parsers within the tensor folder) -> https://github.com/craigdietrich/tensor-profiles
+
 Transfer -> https://github.com/Michael628/scalar-book-transfer-tool
+
 
 In the hooks folder run:
 
